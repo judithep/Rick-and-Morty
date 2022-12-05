@@ -1,0 +1,44 @@
+@media only screen and (min-width : 901px) {
+  .residents-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 12em;
+  padding-right: 12em;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+ min-width: 700px;
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  }
+
+
+ .card__one{
+  padding: 10%;
+  background-image: url(./img/Rick_and_Morty.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center
+   
+}
+
+.card__search{
+  text-align: center;
+  padding: 2em;
+  
+  
+}
+.card__button{
+  justify-content: center;
+  transform:rotateX('angle')
+}
+.error-title{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(0, 255, 13);
+}
+
+

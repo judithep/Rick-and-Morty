@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2? family= Knewave & display=swap');
+@media only screen and (min-width : 501px) {
+    
+   
+    .card__type{
+        grid-column: 1;
+        font-family:fantasy;
+        font-size: 20px;
+        background-color: rgba(155, 76, 230, 0.849);
+        border-radius: 100px;
+        text-align: center;
+    }
+    .card__dimension{
+        grid-column: 2;
+        text-align: center;
+        font-family:fantasy;
+        font-size: 20px;
+        background-color: rgba(155, 76, 230, 0.849);
+        border-radius: 100px;
+    
+    }
+    .card__population{
+        grid-column: 3;
+        text-align: center;
+        font-family:fantasy;
+        font-size: 20px;
+        background-color: rgba(155, 76, 230, 0.849);
+        border-radius: 100px;
+       
+    
+    }
+    
+    }
+
+ 
+.card__info{
+            padding: 2em;
+            padding-top: 5em;
+            padding-bottom: 5em;
+            padding-left: 5em;
+            padding-right: 5em;
+            display: grid;
+            grid-template-columns:  1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            border-radius: 1em;   
+        
+}
+.card__na-me{
+    
+        color: rgba(255, 255, 255, 0.877);
+        text-align: center;
+        font-size: 35px;
+        font-family: cursive;
+        
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 2em;
+    overflow: hidden;
+    transition: transform 200ms ease;
+    background-color: transparent;
+    font-family: cursive;
+    margin: auto;
+    
+
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px rgb(186, 109, 209), -1em 0 0.4em rgb(190, 103, 212);
+
+}
+
+.card__header {
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+.card__avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;
+    object-fit: contain;
+    
+}
+.card__circle-container{
+    position: absolute;
+    top: 15%;
+    width: 15%;
+    
+    padding: 5px 0 5px 5px;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card__circle{
+    width: 25px;
+    aspect-ratio: 1;
+    background: gray;
+    border-radius: 50%;
+}
+.Alive{
+    background-color: rgb(81, 231, 36);
+}
+.Dead {
+    background-color: red;
+}
+.card__body {
+    padding: 15px;
+    background: #9636d633;
+    color: rgb(0, 0, 0);
+    border-radius: 10%;
+    padding-bottom: 25px;
+}
+.card__name {
+    font-size: 1.4 rem;
+    font-weight: 700;
+    color: rgba(245, 245, 245, 0.644);
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.card__list{
+    display: grid;
+    gap: 0.5em;
+    
+}
+.card__item-label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 0.541);
+    margin-bottom: 0.1em;
+    position: relative;
+    left: 0.8em;
+    
+}
+.card__item-value{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    
+}
+

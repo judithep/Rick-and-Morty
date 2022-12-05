@@ -1,0 +1,53 @@
+
+
+
+*{
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./img/galaxia.jpg');
+    background-size:100vw
+    
+    
+}
+
+h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+button{
+    background-color: rgba(98, 0, 255, 0.336);
+    font-family: cursive;
+    border: none;
+    
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+input {
+    outline: none;
+   background: silver;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding: 5px;
+}
+.card__footer{
+    color: white;
+    text-align: center;
+
+    font-family: cursive;
+    padding:1em;
+    margin: auto;
+}
