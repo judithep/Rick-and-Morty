@@ -1,7 +1,7 @@
 @media only screen and (min-width : 901px) {
   .residents-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr  ;
   padding-left: 12em;
   padding-right: 12em;
   justify-content: center;
